@@ -11,6 +11,6 @@ public class HelloTest {
 	}
 	@Test
 	public void A(){
-		System.out.println("aaa");
+		System.out.println("aaa啊");
 	}
 }
