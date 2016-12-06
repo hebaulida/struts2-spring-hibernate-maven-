@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- 开发模式：每次访问时都会重新读取xml配置文件信息 -->
+	<constant name="struts.devMode" value="true"></constant>
+	<!-- 设置匹配后缀 -->
+	<constant name="struts.action.extension" value="action"></constant>
+	<!-- 包含额外的配置文件 -->
+	<include file="struts/struts-student.xml"></include>
+	
+
+</struts>
